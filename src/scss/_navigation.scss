@@ -56,13 +56,16 @@
     border-radius: 100%;
     background: #000;
     opacity: 0.2;
-    button& {
-        border: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        appearance: none;
-    }
+}
+
+button.swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    appearance: none;
+}
+.swiper-pagination-bullet {
     .swiper-pagination-clickable & {
         cursor: pointer;
     }
